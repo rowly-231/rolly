@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table</title>
+</head>
+<style>
+    table {
+    border-collapse: collapse;
+    width: 100px;
+    margin: 0;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+    
+</style>
+</head>
+<body>
+     <table>
+        <caption><b>
+            Timetable
+        </b></caption>
+
+        <tr>
+            <th scope="col">Day/Time</th>
+            <th>9am</th>
+            <th>10am</th>
+            <th>11am</th>
+            <th>12pm</th>
+        </tr>
+
+        <tr>
+            <th scope="row">Monday</th>
+            <td colspan="2">CIS 210</td>
+            <td>CIS 211</td>
+            <td>CIS 212</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Tuesday</th>
+            <td>CIS 122</td>
+            <td>CIS 133</td>
+            <td colspan="2">CIS 213</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
